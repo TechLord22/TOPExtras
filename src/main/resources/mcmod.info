@@ -5,6 +5,7 @@
     "description": "Adds additional TOP Info Providers!",
     "version": "${version}",
     "mcversion": "${mcversion}",
+    "logoFile": "assets/topextras/textures/logo.png",
     "authorList": [
       "TechLord22"
     ],

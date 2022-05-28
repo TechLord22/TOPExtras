@@ -1,4 +1,7 @@
-# TOP Extras
+# TOP Extras 
+
+[![](https://img.shields.io/modrinth/dt/top-extras)](https://modrinth.com/mod/top-extras) [![](http://cf.way2muchnoise.eu/628618.svg)](https://www.curseforge.com/minecraft/mc-mods/top-extras)  [![](http://cf.way2muchnoise.eu/versions/628618.svg)](https://www.curseforge.com/minecraft/mc-mods/top-extras)
+
 
 TOP Extras is an addon mod for [The One Probe](https://github.com/McJtyMods/TheOneProbe) which adds many new providers, aiming to provide feature-parity with [Hwyla](https://github.com/TehNut-Mods/HWYLA) and [WAWLA](https://github.com/Darkhax-Minecraft/WAWLA). 
 
@@ -8,7 +11,6 @@ Feel free to make suggestions for more providers!
 
 Vanilla Features:
 * Furnace smelting progress and fuel burn time
-* Brewing stand progress and fuel burn time
 * Melon/Pumpkin stem and cocoa beans growth progress
 * Cauldron fill levels
 * Animal breeding cooldown time

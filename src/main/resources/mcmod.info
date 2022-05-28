@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "topextras",
+    "name": "TOP Extras",
+    "description": "Adds additional TOP Info Providers!",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": [
+      "TechLord22"
+    ],
+    "dependencies": [
+      "theoneprobe"
+    ]
+  }
+]

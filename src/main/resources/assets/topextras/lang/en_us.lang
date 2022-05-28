@@ -1,0 +1,24 @@
+# vanilla
+topextras.top.furnace_fuel=Smelts
+topextras.top.items=Items
+topextras.top.no_fuel=No fuel
+topextras.top.growth_finished=Fully grown
+topextras.top.growth=Growth:
+topextras.top.empty=Empty
+topextras.top.jukebox_record=Playing
+topextras.top.cauldron_fill_1=Bottle
+topextras.top.cauldron_fill_2=Bottles
+topextras.top.breeding_cooldown=Breeding Cooldown:
+topextras.top.tamed=Tamed
+topextras.top.not_tamed=Not tamed
+topextras.top.sitting=Sitting
+topextras.top.standing=Standing
+topextras.top.tnt_fuse=Fuse:
+topextras.top.enchanting_power=Enchanting Power:
+
+
+# mod compat
+
+# dynamic trees
+topextras.dynamic_trees.soil_life=Soil Life:
+topextras.dynamic_trees.species=Species:

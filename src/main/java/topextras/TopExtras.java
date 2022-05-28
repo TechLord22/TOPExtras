@@ -6,10 +6,12 @@ import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import topextras.providers.*;
+import topextras.providers.modcompat.ApotheosisInfoProvider;
+import topextras.providers.modcompat.DynamicTreesInfoProvider;
 
 import javax.annotation.Nonnull;
 
-@Mod(name = TopExtras.NAME, modid = TopExtras.MODID, version = TopExtras.VERSION, dependencies = "required-after:theoneprobe@[1.4.8,);after:dynamictrees@[0.9.25,)")
+@Mod(name = TopExtras.NAME, modid = TopExtras.MODID, version = TopExtras.VERSION, dependencies = "required-after:theoneprobe@[1.4.8,);after:dynamictrees@[0.9.25,);after:apotheosis@[1.12.4,)")
 public class TopExtras {
 
     public static final String MODID = "topextras";
@@ -37,6 +39,9 @@ public class TopExtras {
         // Mod Compat
         if (Loader.isModLoaded(Utilities.MODID_DYNAMIC_TREES)) {
             theOneProbe.registerProvider(new DynamicTreesInfoProvider());
+        }
+        if (Loader.isModLoaded(Utilities.MODID_APOTHEOSIS)) {
+            theOneProbe.registerProvider(new ApotheosisInfoProvider());
         }
     }
 }

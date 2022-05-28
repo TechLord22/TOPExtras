@@ -1,4 +1,4 @@
-package topextras.providers;
+package topextras.providers.modcompat;
 
 import com.ferreusveritas.dynamictrees.ModConfigs;
 import com.ferreusveritas.dynamictrees.api.TreeHelper;

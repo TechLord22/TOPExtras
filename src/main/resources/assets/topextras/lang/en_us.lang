@@ -1,8 +1,8 @@
 # vanilla
 topextras.top.furnace_fuel=Smelts
 topextras.top.items=Items
-topextras.top.no_fuel=No fuel
-topextras.top.growth_finished=Fully grown
+topextras.top.no_fuel=No Fuel
+topextras.top.growth_finished=Fully Grown
 topextras.top.growth=Growth:
 topextras.top.empty=Empty
 topextras.top.jukebox_record=Playing
@@ -10,16 +10,29 @@ topextras.top.cauldron_fill_1=Bottle
 topextras.top.cauldron_fill_2=Bottles
 topextras.top.breeding_cooldown=Breeding Cooldown:
 topextras.top.tamed=Tamed
-topextras.top.not_tamed=Not tamed
+topextras.top.not_tamed=Not Tamed
 topextras.top.sitting=Sitting
 topextras.top.standing=Standing
 topextras.top.tnt_fuse=Fuse:
 topextras.top.enchanting_power=Enchanting Power:
 topextras.top.chicken_egg=Egg Time:
 
+# units
+topextras.unit.ticks=Ticks
 
 # mod compat
 
 # dynamic trees
 topextras.dynamic_trees.soil_life=Soil Life:
 topextras.dynamic_trees.species=Species:
+
+# apotheosis
+topextras.apotheosis.delay=Delay:
+topextras.apotheosis.spawn_count=Spawn Count:
+topextras.apotheosis.max_nearby=Max Nearby:
+topextras.apotheosis.player_range=Player Range:
+topextras.apotheosis.spawn_range=Spawn Range:
+topextras.apotheosis.ignores_players=Ignores Players
+topextras.apotheosis.ignores_conditions=Ignores Spawn Conditions
+topextras.apotheosis.ignores_cap=Ignores Spawn Cap
+topextras.apotheosis.requires_redstone=Requires Redstone

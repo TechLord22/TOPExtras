@@ -2,7 +2,7 @@
 
 TOP Extras is an addon mod for [The One Probe](https://github.com/McJtyMods/TheOneProbe) which adds many new providers, aiming to provide feature-parity with [Hwyla](https://github.com/TehNut-Mods/HWYLA) and [WAWLA](https://github.com/Darkhax-Minecraft/WAWLA). 
 
-It additionally provides info providers for (previously) Hwyla-only mods, such as [Dynamic Trees](https://github.com/DynamicTreesTeam/DynamicTrees)
+It additionally provides info providers for (previously) Hwyla-only mods, such as [Dynamic Trees](https://github.com/DynamicTreesTeam/DynamicTrees) or [Apotheosis](https://github.com/Shadows-of-Fire/Apotheosis/).
 
 Feel free to make suggestions for more providers!
 
@@ -23,5 +23,6 @@ Vanilla Features:
 
 Mod Integration:
 * Dynamic Trees soil life and wood yield
+* Apotheosis spawner modifiers and anvil enchantments
 
-TOP Extras requires TheOneProbe and is compatible with TOP Addons.
+TOP Extras requires [The One Probe](https://github.com/McJtyMods/TheOneProbe).

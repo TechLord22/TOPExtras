@@ -71,7 +71,11 @@ repositories {
 dependencies {
     "deobfCompile"("mezz.jei:jei_$mcVersion:${config["jei.version"]}")
     "deobfCompile"("mcjty.theoneprobe:TheOneProbe-$shortVersion:$shortVersion-${config["top.version"]}")
+
+    // mod compat
     "compileOnly"("dynamictrees:DynamicTrees:$mcVersion:${config["dynamic_trees.version"]}")
+    "compileOnly"("placebo:Placebo:$mcVersion:${config["placebo.version"]}") // needed for apotheosis
+    "compileOnly"("apotheosis:Apotheosis:$mcVersion:${config["apotheosis.version"]}")
 }
 
 val processResources: ProcessResources by tasks

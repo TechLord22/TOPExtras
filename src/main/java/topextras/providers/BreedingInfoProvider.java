@@ -23,7 +23,7 @@ public class BreedingInfoProvider implements IProbeInfoEntityProvider {
 
             // adult
             if (age > 0) {
-                probeInfo.text(TextStyleClass.INFO + "{*topextras.top.breeding_cooldown*} " + TextStyleClass.INFOIMP + StringUtils.ticksToElapsedTime(age));
+                probeInfo.text(TextStyleClass.LABEL + "{*topextras.top.breeding_cooldown*} " + TextStyleClass.INFOIMP + StringUtils.ticksToElapsedTime(age));
             }
         }
 

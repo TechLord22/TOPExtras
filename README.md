@@ -7,16 +7,19 @@ It additionally provides info providers for (previously) Hwyla-only mods, such a
 Feel free to make suggestions for more providers!
 
 Vanilla Features:
-* Furnace Information: Smelting progress and remaining fuel burn time
+* Furnace smelting progress and fuel burn time
+* Brewing stand progress and fuel burn time
 * Melon/Pumpkin stem and cocoa beans growth progress
 * Cauldron fill levels
 * Animal breeding cooldown time
 * Animal tameability
+* Chicken time to lay eggs
 * Pet sitting/standing
 * Jukebox current record
 * Block enchantment power
 * Enchanting table total enchantment power
 * Minecart and chested animal inventory display
+* Painting names
 
 Mod Integration:
 * Dynamic Trees soil life and wood yield

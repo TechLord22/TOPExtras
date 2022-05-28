@@ -75,7 +75,7 @@ public class FurnaceInfoProvider implements IProbeInfoProvider {
                 smeltableAmount += baseBurnTime * Math.max(1, fuel.getCount()) / itemSmeltDuration;
 
                 if (smeltableAmount > 0.0F) {
-                    horizontalPane.text(TextStyleClass.INFO + " {*topextras.top.furnace_fuel*} " + TextStyleClass.OK + Utilities.FORMAT.format(smeltableAmount) + TextStyleClass.INFO + " {*topextras.top.items*}");
+                    horizontalPane.text(TextStyleClass.LABEL + " {*topextras.top.furnace_fuel*} " + TextStyleClass.OK + Utilities.FORMAT.format(smeltableAmount) + TextStyleClass.LABEL + " {*topextras.top.items*}");
                 }
             } else if (!input.isEmpty()) {
                 horizontalPane.text(TextStyleClass.WARNING + "{*topextras.top.no_fuel*}");

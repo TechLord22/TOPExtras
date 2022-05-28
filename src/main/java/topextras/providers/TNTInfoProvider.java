@@ -18,7 +18,7 @@ public class TNTInfoProvider implements IProbeInfoEntityProvider {
     @Override
     public void addProbeEntityInfo(ProbeMode mode, IProbeInfo probeInfo, EntityPlayer player, World world, Entity entity, IProbeHitEntityData data) {
         if (entity instanceof EntityTNTPrimed) {
-            probeInfo.text(TextStyleClass.INFO + "{*topextras.top.tnt_fuse*} " + TextStyleClass.WARNING + StringUtils.ticksToElapsedTime(((EntityTNTPrimed) entity).getFuse()));
+            probeInfo.text(TextStyleClass.LABEL + "{*topextras.top.tnt_fuse*} " + TextStyleClass.WARNING + StringUtils.ticksToElapsedTime(((EntityTNTPrimed) entity).getFuse()));
         }
     }
 }

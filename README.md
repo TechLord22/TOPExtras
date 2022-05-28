@@ -16,6 +16,7 @@ Vanilla Features:
 * Jukebox current record
 * Block enchantment power
 * Enchanting table total enchantment power
+* Minecart and chested animal inventory display
 
 Mod Integration:
 * Dynamic Trees soil life and wood yield

@@ -29,6 +29,8 @@ public class TopExtras {
         theOneProbe.registerEntityProvider(new BreedingInfoProvider());
         theOneProbe.registerEntityProvider(new PetInfoProvider());
         theOneProbe.registerEntityProvider(new TNTInfoProvider());
+        theOneProbe.registerEntityProvider(new MinecartInfoProvider());
+        theOneProbe.registerEntityProvider(new ChestHorseInfoProvider());
 
         // Mod Compat
         if (Loader.isModLoaded(Utilities.MODID_DYNAMIC_TREES)) {

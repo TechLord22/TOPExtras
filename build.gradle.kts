@@ -69,10 +69,9 @@ repositories {
 }
 
 dependencies {
-    // These will always be in game
     "deobfCompile"("mezz.jei:jei_$mcVersion:${config["jei.version"]}")
     "deobfCompile"("mcjty.theoneprobe:TheOneProbe-$shortVersion:$shortVersion-${config["top.version"]}")
-    "deobfCompile"("dynamictrees:DynamicTrees:$mcVersion:${config["dynamic_trees.version"]}")
+    "compileOnly"("dynamictrees:DynamicTrees:$mcVersion:${config["dynamic_trees.version"]}")
 }
 
 val processResources: ProcessResources by tasks

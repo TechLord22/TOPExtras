@@ -2,6 +2,8 @@
 
 [![](https://img.shields.io/modrinth/dt/top-extras)](https://modrinth.com/mod/top-extras) [![](http://cf.way2muchnoise.eu/628618.svg)](https://www.curseforge.com/minecraft/mc-mods/top-extras)  [![](http://cf.way2muchnoise.eu/versions/628618.svg)](https://www.curseforge.com/minecraft/mc-mods/top-extras)
 
+![Logo](/src/main/resources/assets/topextras/textures/logo.png)
+
 
 TOP Extras is an addon mod for [The One Probe](https://github.com/McJtyMods/TheOneProbe) which adds many new providers, aiming to provide feature-parity with [Hwyla](https://github.com/TehNut-Mods/HWYLA) and [WAWLA](https://github.com/Darkhax-Minecraft/WAWLA). 
 

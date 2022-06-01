@@ -6,7 +6,9 @@ import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
+import net.minecraft.init.PotionTypes;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionUtils;
 import net.minecraft.world.World;
 import topextras.Utilities;
 
@@ -16,7 +18,7 @@ import java.util.Collections;
 public class CauldronInfoProvider implements IProbeInfoProvider {
 
     private static final ItemStack WATER_BUCKET = new ItemStack(Items.WATER_BUCKET);
-    private static final ItemStack WATTER_BOTTLE = Items.POTIONITEM.getDefaultInstance();
+    private static final ItemStack WATTER_BOTTLE = PotionUtils.addPotionToItemStack(new ItemStack(Items.POTIONITEM), PotionTypes.WATER);
     private static final ItemStack BUCKET = new ItemStack(Items.BUCKET);
 
     @Override

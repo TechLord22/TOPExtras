@@ -8,15 +8,17 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import topextras.providers.*;
 import topextras.providers.modcompat.ApotheosisInfoProvider;
 import topextras.providers.modcompat.DynamicTreesInfoProvider;
+import topextras.providers.modcompat.ProjectEInfoProvider;
 
 import javax.annotation.Nonnull;
 
-@Mod(name = TopExtras.NAME, modid = TopExtras.MODID, version = TopExtras.VERSION, dependencies = "required-after:theoneprobe@[1.4.8,);after:dynamictrees@[0.9.25,);after:apotheosis@[1.12.4,)")
+@Mod(name = TopExtras.NAME, modid = TopExtras.MODID, version = TopExtras.VERSION, dependencies = TopExtras.DEPENCENCIES)
 public class TopExtras {
 
     public static final String MODID = "topextras";
     public static final String NAME = "Top Extras";
     public static final String VERSION = "@VERSION@";
+    public static final String DEPENCENCIES = "required-after:theoneprobe@[1.4.8,);after:dynamictrees@[0.9.25,);after:apotheosis@[1.12.4,);after:apotheosis@[1.4.1,)";
 
     @Mod.EventHandler
     public static void onInit(@Nonnull FMLInitializationEvent event) {
@@ -42,6 +44,10 @@ public class TopExtras {
         }
         if (Loader.isModLoaded(Utilities.MODID_APOTHEOSIS)) {
             theOneProbe.registerProvider(new ApotheosisInfoProvider());
+        }
+        if (Loader.isModLoaded(Utilities.MODID_PROJECTE)) {
+            theOneProbe.registerProvider(new ProjectEInfoProvider());
+            theOneProbe.registerEntityProvider(new ProjectEInfoProvider());
         }
     }
 }

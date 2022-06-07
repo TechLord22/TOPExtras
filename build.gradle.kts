@@ -76,6 +76,7 @@ dependencies {
     "compileOnly"("dynamictrees:DynamicTrees:$mcVersion:${config["dynamic_trees.version"]}")
     "compileOnly"("placebo:Placebo:$mcVersion:${config["placebo.version"]}") // needed for apotheosis
     "compileOnly"("apotheosis:Apotheosis:$mcVersion:${config["apotheosis.version"]}")
+    "compileOnly"("projecte:ProjectE:$mcVersion:PE${config["projecte.version"]}")
 }
 
 val processResources: ProcessResources by tasks

@@ -22,6 +22,7 @@ public class Utilities {
 
     public static final String MODID_DYNAMIC_TREES = "dynamictrees";
     public static final String MODID_APOTHEOSIS = "apotheosis";
+    public static final String MODID_PROJECTE = "projecte";
 
     public static final DecimalFormat FORMAT = new DecimalFormat("#,###.#");
 

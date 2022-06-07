@@ -36,3 +36,7 @@ topextras.apotheosis.ignores_players=Ignores Players
 topextras.apotheosis.ignores_conditions=Ignores Spawn Conditions
 topextras.apotheosis.ignores_cap=Ignores Spawn Cap
 topextras.apotheosis.requires_redstone=Requires Redstone
+
+# projecte
+topextras.projecte.emc=EMC:
+topextras.projecte.contained_emc=Contained EMC:

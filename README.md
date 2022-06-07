@@ -29,5 +29,6 @@ Mod Integration:
 * Dynamic Trees soil life and wood yield
 * Apotheosis spawner modifiers and anvil enchantments
 * ProjectE block EMC and tile entity EMC storage
+* Thaumcraft 6 essentia smeltery progress and burn time
 
 TOP Extras requires [The One Probe](https://github.com/McJtyMods/TheOneProbe).

@@ -9,6 +9,7 @@ import topextras.providers.*;
 import topextras.providers.modcompat.ApotheosisInfoProvider;
 import topextras.providers.modcompat.DynamicTreesInfoProvider;
 import topextras.providers.modcompat.ProjectEInfoProvider;
+import topextras.providers.modcompat.ThaumcraftInfoProvider;
 
 import javax.annotation.Nonnull;
 
@@ -18,7 +19,8 @@ public class TopExtras {
     public static final String MODID = "topextras";
     public static final String NAME = "Top Extras";
     public static final String VERSION = "@VERSION@";
-    public static final String DEPENCENCIES = "required-after:theoneprobe@[1.4.8,);after:dynamictrees@[0.9.25,);after:apotheosis@[1.12.4,);after:apotheosis@[1.4.1,)";
+    public static final String DEPENCENCIES = "required-after:theoneprobe@[1.4.8,);" + "after:dynamictrees@[0.9.25,);" +
+            "after:apotheosis@[1.12.4,);" + "after:apotheosis@[1.4.1,);" + "after:thaumcraft@[6.1.BETA,)";
 
     @Mod.EventHandler
     public static void onInit(@Nonnull FMLInitializationEvent event) {
@@ -46,8 +48,12 @@ public class TopExtras {
             theOneProbe.registerProvider(new ApotheosisInfoProvider());
         }
         if (Loader.isModLoaded(Utilities.MODID_PROJECTE)) {
-            theOneProbe.registerProvider(new ProjectEInfoProvider());
-            theOneProbe.registerEntityProvider(new ProjectEInfoProvider());
+            ProjectEInfoProvider provider = new ProjectEInfoProvider();
+            theOneProbe.registerProvider(provider);
+            theOneProbe.registerEntityProvider(provider);
+        }
+        if (Loader.isModLoaded(Utilities.MODID_THAUMCRAFT)) {
+            theOneProbe.registerProvider(new ThaumcraftInfoProvider());
         }
     }
 }

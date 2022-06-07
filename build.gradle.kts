@@ -77,6 +77,8 @@ dependencies {
     "compileOnly"("placebo:Placebo:$mcVersion:${config["placebo.version"]}") // needed for apotheosis
     "compileOnly"("apotheosis:Apotheosis:$mcVersion:${config["apotheosis.version"]}")
     "compileOnly"("projecte:ProjectE:$mcVersion:PE${config["projecte.version"]}")
+    "compileOnly"("baubles:Baubles:$shortVersion:${config["baubles.version"]}") // needed for thaumcraft
+    "compileOnly"("thaumcraft:Thaumcraft:$mcVersion:${config["thaumcraft.version"]}")
 }
 
 val processResources: ProcessResources by tasks
